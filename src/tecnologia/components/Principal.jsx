@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Header } from './Header'
-import { products as InitialProduct } from '../../assets/products.json'
+import { products as InitialProduct } from '../../../public/products.json'
 import { Filter } from './Filter';
 import { ProductsResult } from './ProductsResult';
 import '../../styles/Principal.css'
