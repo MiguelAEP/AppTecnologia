@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { createContext } from "react";
-import { products } from '../../../mocks/products.json'
+import { products } from '../../../assets/products.json'
 import { useState } from "react";
 
 export const ProductContext = createContext()
