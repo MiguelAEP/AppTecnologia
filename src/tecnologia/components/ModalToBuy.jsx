@@ -2,7 +2,7 @@ import React from 'react'
 import { useRef } from 'react';
 import { useReactToPrint } from "react-to-print";
 
-import '../../Styles/Result.css'
+import '../../styles/Result.css'
 export const ModalToBuy = ({ productoSeleccionado }) => {
 
     const componentRef = useRef();

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Header } from './Header'
-import '../../Styles/Informacion.css'
+import '../../styles/Informacion.css'
 export const Informacion = () => {
     return (
         <>

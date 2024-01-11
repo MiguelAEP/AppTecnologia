@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { Header } from './Header'
-import { products as InitialProduct } from '../../Mocks/products.json'
+import { products as InitialProduct } from '../../mocks/products.json'
 import { Filter } from './Filter';
 import { ProductsResult } from './ProductsResult';
-import '../../Styles/Principal.css'
+import '../../styles/Principal.css'
 
 
 export const Principal = () => {

@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import '../../Styles/Filter.css'
+import '../../styles/Filter.css'
 import { useAuth } from '../Autenticacion/Context/Auth';
 
 export const Filter = ({ categoria, setcategoria }) => {

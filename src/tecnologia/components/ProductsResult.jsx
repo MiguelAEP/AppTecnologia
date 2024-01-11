@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../Styles/Result.css'
+import '../../styles/Result.css'
 import { useAuth } from '../Autenticacion/Context/Auth'
 import { useNavigate } from 'react-router-dom'
 import { Carrusel } from './Carrusel'

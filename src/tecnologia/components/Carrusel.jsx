@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../Styles/Result.css'
+import '../../styles/Result.css'
 export const Carrusel = ({ productos }) => {
     return (
         <>

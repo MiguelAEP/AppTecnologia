@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../Styles/Principal.css'
+import '../../styles/Principal.css'
 import { Link, Outlet } from 'react-router-dom'
 
 export const Header = () => {

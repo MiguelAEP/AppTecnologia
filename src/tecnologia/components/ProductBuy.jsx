@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 
-import '../../Styles/Result.css'
+import '../../styles/Result.css'
 
 import { ProductAuth } from './Context/ProductsC'
 import { useState } from 'react'
