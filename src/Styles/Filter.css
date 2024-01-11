@@ -1,0 +1,49 @@
+select {
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 2px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+label {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.infoLogin {
+    text-align: center;
+    padding: 2px;
+    margin-left: 37vw;
+    font-size: 25px;
+
+}
+
+.closeSesion {
+    margin-left: 15px;
+}
+
+
+@media only screen and (max-width: 857px) {
+
+    .infoLogin {
+        text-align: start;
+        margin-left: 1vw;
+    }
+
+    .closeSesion {
+        margin-left: 1vw;
+    }
+
+    button {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+
+
+    button {
+        width: 150px;
+    }
+}

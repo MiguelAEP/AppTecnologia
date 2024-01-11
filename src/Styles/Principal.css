@@ -1,0 +1,129 @@
+li {
+    list-style: none;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(245, 243, 240);
+}
+
+header nav {
+    display: flex;
+
+}
+
+header nav ul {
+    display: flex;
+
+
+}
+
+li {
+    margin-right: 70px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(248, 246, 243);
+    padding-left: 40px;
+}
+
+section div {
+    margin-left: 3%
+}
+
+
+
+@media only screen and (max-width: 1180px) {
+    header {
+        width: 100vw;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        background-color: rgb(245, 243, 240);
+    }
+
+    h1 {
+
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (max-width: 857px) {
+    header {
+        width: 100vw;
+        height: 22vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        background-color: rgb(245, 243, 240);
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    li {
+        margin-bottom: 9px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        flex-wrap: wrap;
+        background-color: rgb(248, 246, 243);
+        height: 30vh;
+
+    }
+
+    h1 {
+        margin: auto;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 412px) {
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        flex-wrap: wrap;
+        background-color: rgb(248, 246, 243);
+        height: 33vh;
+
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+
+    section {
+
+        height: 37vh;
+
+    }
+
+}

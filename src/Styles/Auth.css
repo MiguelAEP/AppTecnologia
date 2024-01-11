@@ -1,0 +1,44 @@
+form{
+    float: right;
+    background-color: #dacde64b;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.inputField{
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+button{
+    opacity: 0.5;
+    margin-bottom: 5px;
+    background-color: antiquewhite;
+}
+
+.loginError{
+  background-color: red;
+  color: white;
+  padding: 7px;
+  height: 40px;
+}
+
+.createSuccess {
+    background-color: green;
+    color: white;
+    padding: 7px;
+    height: 40px;
+}
+
+
+@media only screen and (max-width: 857px){
+    form{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
