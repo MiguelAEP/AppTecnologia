@@ -8,7 +8,7 @@ export const Informacion = () => {
 
             <div className='principal'>
                 <div className='imgDiv'>
-                    <img src='src/img/70108142.jpg' />
+                    <img src='src/assets/img/70108142.jpg' />
                 </div>
                 <div className='resumen'>
                     <h2>Resumen</h2>
