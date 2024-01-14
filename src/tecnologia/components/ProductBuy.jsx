@@ -26,7 +26,8 @@ export const ProductBuy = () => {
 
             <div >
                 <div className='especi'>
-                    <img className='imgEspecificacion' src={productoSeleccionado.thumbnail} />
+                    <img className='imgEspecificacion' src={`/imagenes/${productoSeleccionado.thumbnail}.jpg`} alt={productoSeleccionado.title} />
+
                     <div className='especificaciones'>
 
                         <div className='divEspecificacion'>
