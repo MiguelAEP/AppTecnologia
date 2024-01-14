@@ -20,8 +20,6 @@ export const ProductsResult = ({ productos }) => {
         navigate(`/${id}`)
     }
 
-
-
     return (
         <>
 
@@ -35,7 +33,7 @@ export const ProductsResult = ({ productos }) => {
 
                             <div key={element.id} className='elementCards'>
 
-                                <img src={element.thumbnail} />
+                                <img src={`/imagenes/${element.thumbnail}.jpg`} alt={name} />
                                 <div>
                                     <h4>{element.title}</h4>
                                     <h5>{element.category}</h5>

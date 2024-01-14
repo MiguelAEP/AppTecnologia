@@ -1,7 +1,7 @@
 import React from 'react'
 import { Header } from './Header'
 import '../../styles/Informacion.css'
-import imagenPersonal from "../../assets/imagenes/fotoPersonal.jpg";
+import imagenPersonal from "../../../public/imagenes/fotoPersonal.jpg";
 export const Informacion = () => {
     return (
         <>
