@@ -32,8 +32,7 @@ export const ProductsResult = ({ productos }) => {
 
 
                             <div key={element.id} className='elementCards'>
-
-                                <img src={`/imagenes/${element.thumbnail}.jpg`} alt={name} />
+                                <img src={`/imagenes/${element.thumbnail}.jpg`} alt={element.title} />
                                 <div>
                                     <h4>{element.title}</h4>
                                     <h5>{element.category}</h5>
