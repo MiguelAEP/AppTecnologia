@@ -1,6 +1,7 @@
 import React from 'react'
 import { Header } from './Header'
 import '../../styles/Informacion.css'
+import imagenPersonal from "../../assets/imagenes/fotoPersonal.jpg";
 export const Informacion = () => {
     return (
         <>
@@ -8,7 +9,7 @@ export const Informacion = () => {
 
             <div className='principal'>
                 <div className='imgDiv'>
-                    <img src='./src/assets/imagenes/70108142.jpg' />
+                    <img src={imagenPersonal} />
                 </div>
                 <div className='resumen'>
                     <h2>Resumen</h2>

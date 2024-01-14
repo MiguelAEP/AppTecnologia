@@ -20,6 +20,8 @@ export const ProductsResult = ({ productos }) => {
         navigate(`/${id}`)
     }
 
+
+
     return (
         <>
 
@@ -32,6 +34,7 @@ export const ProductsResult = ({ productos }) => {
 
 
                             <div key={element.id} className='elementCards'>
+
                                 <img src={element.thumbnail} />
                                 <div>
                                     <h4>{element.title}</h4>
