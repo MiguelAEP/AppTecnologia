@@ -171,5 +171,16 @@ h4 {
         height: 50vh;
     }
 
+    .carouse {
+        margin-top: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 844px) {
+
+    .carouse {
+        margin-top: 50px;
+    }
 
 }

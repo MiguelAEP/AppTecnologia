@@ -1,4 +1,4 @@
-form{
+form {
     float: right;
     background-color: #dacde64b;
     text-align: center;
@@ -9,22 +9,22 @@ form{
     border-radius: 40px;
 }
 
-.inputField{
+.inputField {
     width: 90%;
     margin-bottom: 5px;
 }
 
-button{
+button {
     opacity: 0.5;
     margin-bottom: 5px;
     background-color: antiquewhite;
 }
 
-.loginError{
-  background-color: red;
-  color: white;
-  padding: 7px;
-  height: 40px;
+.loginError {
+    background-color: red;
+    color: white;
+    padding: 7px;
+    height: 40px;
 }
 
 .createSuccess {
@@ -35,10 +35,21 @@ button{
 }
 
 
-@media only screen and (max-width: 857px){
-    form{
+@media only screen and (max-width: 857px) {
+    form {
         display: flex;
         flex-direction: row;
+
     }
 }
 
+
+@media only screen and (min-width: 800px) {
+    form {
+
+        display: flex;
+        flex-direction: row;
+        margin-top: 55px;
+
+    }
+}

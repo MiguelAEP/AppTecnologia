@@ -116,9 +116,14 @@ section div {
 
     }
 
+    h3 {
+        padding-top: 40px;
+
+    }
+
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 375px) {
 
     section {
 
@@ -126,4 +131,8 @@ section div {
 
     }
 
+    h3 {
+        padding-top: 80px;
+
+    }
 }
